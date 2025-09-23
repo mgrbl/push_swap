@@ -6,7 +6,7 @@
 /*   By: meghribe <meghribe@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 23:30:45 by meghribe          #+#    #+#             */
-/*   Updated: 2025/09/23 23:59:27 by meghribe         ###   ########.fr       */
+/*   Updated: 2025/09/24 00:06:09 by meghribe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,6 @@
 
 size_t	ft_strlen(const char *s);
 void	ft_putstr_fd(char *s, int fd);
+void	print_usage(char *program_name);
 
 #endif
